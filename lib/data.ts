@@ -1,107 +1,137 @@
-import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import React from 'react';
+import { CgWorkAlt } from 'react-icons/cg';
+import { FaReact } from 'react-icons/fa';
+import { LuGraduationCap } from 'react-icons/lu';
+import { FaLaravel } from 'react-icons/fa';
+import { DiCodeigniter } from 'react-icons/di';
+import webAngkatan from '@/public/web-angkatan.jpg';
+import pkkmb from '@/public/pkkmb.jpg';
+import bem from '@/public/bem.jpg';
+import webmon from '@/public/webmon.jpg';
 
 export const links = [
   {
-    name: "Home",
-    hash: "#home",
+    name: 'Home',
+    hash: '#home',
   },
   {
-    name: "About",
-    hash: "#about",
+    name: 'About',
+    hash: '#about',
   },
   {
-    name: "Projects",
-    hash: "#projects",
+    name: 'Projects',
+    hash: '#projects',
   },
   {
-    name: "Skills",
-    hash: "#skills",
+    name: 'Skills',
+    hash: '#skills',
   },
   {
-    name: "Experience",
-    hash: "#experience",
+    name: 'Experience',
+    hash: '#experience',
   },
   {
-    name: "Contact",
-    hash: "#contact",
+    name: 'Contact',
+    hash: '#contact',
   },
 ] as const;
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
-    description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+    title: 'Graduated From High School',
+    location: 'Cilacap, Central Java, Indonesia',
+    description: 'I graduated after 2 years of studying. I immediately become a college Student at Politeknik Statistika STIS.',
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: '2021',
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+    title: 'Pengurus Tingkat Dua Bidang TI',
+    location: 'Jakarta, Indonesia',
+    description: 'I worked as a front-end developer and UI/UX designer building the website of ANGKATAN 63. I also helped to manage the organization. With my team, we created a website for the organization using a Laravel and Tailwind',
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: '2022',
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: 'PKKMB STIS 2023 bidang TI',
+    location: 'Jakarta, Indonesia',
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "I worked as a front-end developer and UI/UX designer building the website to student 'ospek' for new student college of Politeknik Statistika STIS. With my team, we created a website for the organization using a Laravel and Tailwind",
+    icon: React.createElement(FaLaravel),
+    date: '2023',
+  },
+  {
+    title: 'BEM STIS 2023-2024 unit Digitasi',
+    location: 'Jakarta, Indonesia',
+    description: 'I worked as a front-end developer and UI/UX designer building the website of BEM Politeknik Statistika STIS. With my team, we created a website for the organisation using Code Igniter and Bootstrap.',
+    icon: React.createElement(DiCodeigniter),
+    date: '2023 - present',
+  },
+  {
+    title: 'PKL D-IV angkatan 63 bidang TI sub divisi Web monitoring',
+    location: 'Jakarta, Indonesia',
+    description: 'I worked as a full-stack developer and UI/UX designer building a website to monitor pkl 63 activities . With my team, we created a website for the organization using a Next.js, Express.js and Tailwind',
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: '2023 - present',
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
-    description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+    title: 'Website Angkatan 63',
+    description: 'I worked as a front-end developer and UI/UX designer building the website of ANGKATAN 63.',
+    tags: ['Laravel', 'Tailwind', 'MySQL', 'PHP', 'Jquery', 'Figma'],
+    imageUrl: webAngkatan,
+    tautan: 'https://angkatan63.stis.ac.id/',
   },
   {
-    title: "rmtDev",
-    description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+    title: 'PKKMB Angkatan 65',
+    description: 'I worked as a front-end developer and UI/UX designer building the website to student "ospek" for new student college of Politeknik Statistika STIS',
+    tags: ['Laravel', 'Tailwind', 'MySQL', 'PHP', 'Alphine.js', 'Figma'],
+    imageUrl: pkkmb,
+    tautan: 'https://pkkmb.stis.ac.id/2023',
   },
   {
-    title: "Word Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+    title: 'BEM Politeknik Statistika STIS 2023-2024',
+    description: 'I worked as a front-end developer and UI/UX designer building the website of BEM Politeknik Statistika STIS.',
+    tags: ['Code Igniter4', 'Bootstrap', 'MySQL', 'PHP', 'JQuery', 'Figma'],
+    imageUrl: bem,
+    tautan: 'https://bem.stis.ac.id/',
+  },
+  {
+    title: 'Web Monitoring PKL D-IV 63 STIS',
+    description: 'I worked as a full-stack developer and UI/UX designer building a website to monitor pkl 63 activities.',
+    tags: ['Next.js', 'Express.js', 'MySql', 'Node.js', 'Tailwind', 'Figma'],
+    imageUrl: webmon,
+    tautan: 'https://monitoring.pkl63.stis.ac.id/',
   },
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "TypeScript",
-  "React",
-  "Next.js",
-  "Node.js",
-  "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
+  'HTML',
+  'CSS',
+  'JavaScript',
+  'TypeScript',
+  'React',
+  'Next.js',
+  'Node.js',
+  'Git',
+  'Tailwind',
+  'Bootstrap',
+  'MongoDB',
+  'GraphQL',
+  'Express.js',
+  'PostgreSQL',
+  'MySQL',
+  'PHP',
+  'Laravel',
+  'CodeIgniter',
+  'Python',
+  'Figma',
+  'Photoshop',
+  'Java',
+  'Spring Boot',
+  'C',
+  'DaisyUI',
+  'Vue.js',
+  'R',
 ] as const;
