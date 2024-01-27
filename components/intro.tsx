@@ -10,6 +10,7 @@ import { FaGithubSquare } from 'react-icons/fa';
 import { useSectionInView } from '@/lib/hooks';
 import { useActiveSectionContext } from '@/context/active-section-context';
 import Typewriter from 'typewriter-effect';
+import myPhoto from '../public/myPhoto.png';
 
 export default function Intro() {
   const { ref } = useSectionInView('Home', 0.5);
@@ -27,7 +28,7 @@ export default function Intro() {
               duration: 0.2,
             }}
           >
-            <Image src="/../public/myPhoto.png" alt="My portrait" width="220" height="197" quality="95" priority={true} className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl" />
+            <Image src={myPhoto} alt="My portrait" width="220" height="197" quality="95" priority={true} className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl" />
           </motion.div>
 
           <motion.span
