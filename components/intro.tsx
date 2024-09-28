@@ -49,18 +49,16 @@ export default function Intro() {
 
       <motion.h1 className="mb-10 mt-4 px-4 text-xl font-medium !leading-[1.5] sm:text-4xl dark:bg-black/70 dark:text-white text-slate-900  py-4 rounded-lg shadow-md" initial={{ opacity: 0, y: 100 }} animate={{ opacity: 1, y: 0 }}>
         <Typewriter
+          options={{
+            delay: 50, // Kecepatan mengetik per karakter dalam milidetik (lebih rendah = lebih cepat)
+          }}
           onInit={(typewriter) => {
             typewriter
               .typeString(
-                "Hello, I'm Aliefta Zulvansyah Bahyperdana. I'm a junior full-stack developer with 2 years of experience. I am currently a college student at Politeknik Statistika STIS. I enjoy building sites & apps. My focus is PHP (Laravel), Java (Spring) and React (Next.js)."
+                "Hello, I'm Aliefta Zulvansyah Bahyperdana. I'm a junior full-stack developer with 3 years of experience. I am currently a college student at Politeknik Statistika STIS. I enjoy building sites & apps. My focus is PHP (Laravel), Java (Spring) and React (Next.js)."
               )
               .callFunction(() => {
                 console.log('String typed out!');
-              })
-              .pauseFor(200)
-              .deleteAll()
-              .callFunction(() => {
-                console.log('All strings were deleted');
               })
               .start();
           }}

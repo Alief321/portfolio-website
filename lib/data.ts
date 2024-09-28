@@ -8,6 +8,7 @@ import webAngkatan from '@/public/web-angkatan.jpg';
 import pkkmb from '@/public/pkkmb.jpg';
 import bem from '@/public/bem.jpg';
 import webmon from '@/public/webmon.jpg';
+import descan from '@/public/descan.jpg';
 
 export const links = [
   {
@@ -104,6 +105,13 @@ export const projectsData = [
     imageUrl: webmon,
     tautan: 'https://monitoring.pkl63.stis.ac.id/',
   },
+  {
+    title: 'Desa Cantik Cilacap (Maos Lor)',
+    description: 'I worked as a software enginer for building a website for the socio-economic data collection of Maos Lor.',
+    tags: ['Next.js', 'Tailwind', 'MySQL', 'DaisyUI', 'PrismaORM'],
+    imageUrl: descan,
+    tautan: 'https://desacantik.cilacapkab.go.id/dashboard',
+  },
 ] as const;
 
 export const skillsData = [
@@ -128,6 +136,7 @@ export const skillsData = [
   'Python',
   'Figma',
   'Photoshop',
+  'PrismaORM',
   'Java',
   'Spring Boot',
   'C',
