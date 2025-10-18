@@ -13,8 +13,8 @@ export default function About() {
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
         After graduating from <b>SMAN 1 Cilacap</b>, I continued my studies at <b>Politeknik Statistika STIS</b>. I decided to pursue my passion for programming. <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the feeling of finally figuring out a solution to a problem. My core stack is <span className="font-medium">Laravel, Spring, Next.js, Node.js, and MySql</span>. I am
-        also familiar with Python , R, and TypeScript.
+        problem-solving aspect. I <span className="underline">love</span> the feeling of finally figuring out a solution to a problem. My core stack is{' '}
+        <span className="font-medium">Laravel, Spring, Next.js, Node.js, Vite, MySql, PostgreSQL</span>. I am also familiar with Python , R, and C.
       </p>
 
       <p>

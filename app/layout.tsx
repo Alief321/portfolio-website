@@ -32,17 +32,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <ThemeSwitch />
           </ActiveSectionContextProvider>
         </ThemeContextProvider>
-
-        {/* <!-- Google tag (gtag.js) --> */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-8ZCQJCFMLS"></script>
-        <Script id="gtag-init" strategy="afterInteractive">
-          {`
-                  window.dataLayer = window.dataLayer || [];
-                  function gtag(){dataLayer.push(arguments);}
-                  gtag('js', new Date());
-                  gtag('config', 'G-8ZCQJCFMLS');
-              `}
-        </Script>
       </body>
     </html>
   );

@@ -55,7 +55,7 @@ export default function Intro() {
           onInit={(typewriter) => {
             typewriter
               .typeString(
-                "Hello, I'm Aliefta Zulvansyah Bahyperdana. I'm a junior full-stack developer with 3 years of experience. I am currently a college student at Politeknik Statistika STIS. I enjoy building sites & apps. My focus is PHP (Laravel), Java (Spring) and React (Next.js)."
+                "Hello, I'm Aliefta Zulvansyah Bahyperdana. I'm a junior full-stack developer with 4 years of experience. I am a recent graduate of Politeknik Statistika STIS with a Bachelor's degree in Applied Statistics (D-IV) . I enjoy building sites & apps. My focus is PHP (Laravel), Java (Spring) and JavaScript (Next.js, React.js)."
               )
               .callFunction(() => {
                 console.log('String typed out!');

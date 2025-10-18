@@ -9,6 +9,7 @@ import pkkmb from '@/public/pkkmb.jpg';
 import bem from '@/public/bem.jpg';
 import webmon from '@/public/webmon.jpg';
 import descan from '@/public/descan.jpg';
+import cmsstis from '@/public/cms-stis.png';
 
 export const links = [
   {
@@ -46,14 +47,14 @@ export const experiencesData = [
     date: '2021',
   },
   {
-    title: 'Pengurus Tingkat Dua Bidang TI',
+    title: 'IT Division Staff - Second-Year Committee',
     location: 'Jakarta, Indonesia',
     description: 'I worked as a front-end developer and UI/UX designer building the website of ANGKATAN 63. I also helped to manage the organization. With my team, we created a website for the organization using a Laravel and Tailwind',
     icon: React.createElement(CgWorkAlt),
     date: '2022',
   },
   {
-    title: 'PKKMB STIS 2023 bidang TI',
+    title: 'PKKMB STIS 2023 - IT Division',
     location: 'Jakarta, Indonesia',
     description:
       "I worked as a front-end developer and UI/UX designer building the website to student 'ospek' for new student college of Politeknik Statistika STIS. With my team, we created a website for the organization using a Laravel and Tailwind",
@@ -61,18 +62,39 @@ export const experiencesData = [
     date: '2023',
   },
   {
-    title: 'BEM STIS 2023-2024 unit Digitasi',
+    title: 'BEM STIS 2023-2024 - IT Division Staff',
     location: 'Jakarta, Indonesia',
     description: 'I worked as a front-end developer and UI/UX designer building the website of BEM Politeknik Statistika STIS. With my team, we created a website for the organisation using Code Igniter and Bootstrap.',
     icon: React.createElement(DiCodeigniter),
-    date: '2023 - present',
+    date: '2023 - 2024',
   },
   {
-    title: 'PKL D-IV angkatan 63 bidang TI sub divisi Web monitoring',
+    title: '(PKL 63) - IT Division, Web Monitoring Subdivision',
     location: 'Jakarta, Indonesia',
     description: 'I worked as a full-stack developer and UI/UX designer building a website to monitor pkl 63 activities . With my team, we created a website for the organization using a Next.js, Express.js and Tailwind',
     icon: React.createElement(FaReact),
-    date: '2023 - present',
+    date: '2023',
+  },
+  {
+    title: 'Internship - Software Engineer at BPS Kabupaten Cilacap',
+    location: 'Cilacap, Central Java, Indonesia',
+    description: 'I worked as a software enginer for building a website for the socio-economic data collection of Maos Lor. With my team, we created a website for the organization using a Next.js and Tailwind',
+    icon: React.createElement(FaReact),
+    date: '2024',
+  },
+  {
+    title: 'IT Division Staff - Fourth-Year Committee',
+    location: 'Jakarta, Indonesia',
+    description: 'Responsible for managing technology-related tasks, maintaining systems, and supporting digital initiatives within the organization.',
+    icon: React.createElement(FaReact),
+    date: '2024 - 2025',
+  },
+  {
+    title: 'Graduation - Politeknik Statistika STIS',
+    location: 'Jakarta, Indonesia',
+    description: 'I graduated after 4 years of studying at Politeknik Statistika STIS with a Bachelor Degree in Applied Statistics (D-IV).',
+    icon: React.createElement(FaReact),
+    date: '2025',
   },
 ] as const;
 
@@ -112,6 +134,13 @@ export const projectsData = [
     imageUrl: descan,
     tautan: 'https://desacantik.cilacapkab.go.id/dashboard',
   },
+  {
+    title: 'CMS Politeknik Statistika STIS',
+    description: 'A content management system (CMS) built for Politeknik Statistika STIS to manage and publish digital content efficiently.',
+    tags: ['Next.js', 'PayloadCMS', 'PostgreSQL', 'Node.js', 'Tailwind', 'Figma', 'Shadcn UI'],
+    imageUrl: cmsstis,
+    tautan: 'https://stis-dev.student.stis.ac.id/',
+  },
 ] as const;
 
 export const skillsData = [
@@ -122,11 +151,17 @@ export const skillsData = [
   'React',
   'Next.js',
   'Node.js',
+  'Vite',
+  'Vue.js',
+  'Payload CMS',
   'Git',
-  'Tailwind',
+  'Sass',
+  'Tailwind CSS',
   'Bootstrap',
-  'MongoDB',
+  'DaisyUI',
+  'Shadcn UI',
   'GraphQL',
+  'MongoDB',
   'Express.js',
   'PostgreSQL',
   'MySQL',
@@ -136,11 +171,9 @@ export const skillsData = [
   'Python',
   'Figma',
   'Photoshop',
-  'PrismaORM',
+  'Prisma ORM',
   'Java',
   'Spring Boot',
   'C',
-  'DaisyUI',
-  'Vue.js',
   'R',
 ] as const;
