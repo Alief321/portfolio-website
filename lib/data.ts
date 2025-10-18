@@ -1,8 +1,10 @@
 import React from 'react';
-import { CgWorkAlt } from 'react-icons/cg';
+import { FaComputer } from 'react-icons/fa6';
 import { FaReact } from 'react-icons/fa';
 import { LuGraduationCap } from 'react-icons/lu';
+import { MdOutlineCollectionsBookmark } from 'react-icons/md';
 import { FaLaravel } from 'react-icons/fa';
+import { FaSchoolFlag } from 'react-icons/fa6';
 import { DiCodeigniter } from 'react-icons/di';
 import webAngkatan from '@/public/web-angkatan.jpg';
 import pkkmb from '@/public/pkkmb.jpg';
@@ -10,6 +12,7 @@ import bem from '@/public/bem.jpg';
 import webmon from '@/public/webmon.jpg';
 import descan from '@/public/descan.jpg';
 import cmsstis from '@/public/cms-stis.png';
+import { HiOutlineDesktopComputer } from 'react-icons/hi';
 
 export const links = [
   {
@@ -43,14 +46,14 @@ export const experiencesData = [
     title: 'Graduated From High School',
     location: 'Cilacap, Central Java, Indonesia',
     description: 'I graduated after 2 years of studying. I immediately become a college Student at Politeknik Statistika STIS.',
-    icon: React.createElement(LuGraduationCap),
+    icon: React.createElement(FaSchoolFlag),
     date: '2021',
   },
   {
     title: 'IT Division Staff - Second-Year Committee',
     location: 'Jakarta, Indonesia',
     description: 'I worked as a front-end developer and UI/UX designer building the website of ANGKATAN 63. I also helped to manage the organization. With my team, we created a website for the organization using a Laravel and Tailwind',
-    icon: React.createElement(CgWorkAlt),
+    icon: React.createElement(FaComputer),
     date: '2022',
   },
   {
@@ -79,21 +82,21 @@ export const experiencesData = [
     title: 'Internship - Software Engineer at BPS Kabupaten Cilacap',
     location: 'Cilacap, Central Java, Indonesia',
     description: 'I worked as a software enginer for building a website for the socio-economic data collection of Maos Lor. With my team, we created a website for the organization using a Next.js and Tailwind',
-    icon: React.createElement(FaReact),
+    icon: React.createElement(MdOutlineCollectionsBookmark),
     date: '2024',
   },
   {
     title: 'IT Division Staff - Fourth-Year Committee',
     location: 'Jakarta, Indonesia',
     description: 'Responsible for managing technology-related tasks, maintaining systems, and supporting digital initiatives within the organization.',
-    icon: React.createElement(FaReact),
+    icon: React.createElement(HiOutlineDesktopComputer),
     date: '2024 - 2025',
   },
   {
-    title: 'Graduation - Politeknik Statistika STIS',
+    title: 'Graduated from Politeknik Statistika STIS',
     location: 'Jakarta, Indonesia',
     description: 'I graduated after 4 years of studying at Politeknik Statistika STIS with a Bachelor Degree in Applied Statistics (D-IV).',
-    icon: React.createElement(FaReact),
+    icon: React.createElement(LuGraduationCap),
     date: '2025',
   },
 ] as const;
