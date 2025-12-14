@@ -142,7 +142,7 @@ export const projectsData = [
     description: 'A content management system (CMS) built for Politeknik Statistika STIS to manage and publish digital content efficiently.',
     tags: ['Next.js', 'PayloadCMS', 'PostgreSQL', 'Node.js', 'Tailwind', 'Figma', 'Shadcn UI', 'Docker'],
     imageUrl: cmsstis,
-    tautan: 'https://stis-dev.student.stis.ac.id/',
+    tautan: '/',
   },
 ] as const;
 
